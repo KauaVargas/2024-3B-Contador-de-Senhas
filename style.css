@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Oswald:wght@200..700&display=swap');
 
 *{
     margin: 0;
@@ -12,5 +12,16 @@
     --roxo-pouco-fraco: #5a189a;
     --roxo-fraco: #7b2cbf;
     --roxo-muito-fraco: #9d4edd;
-    --font-titulo: 
+    --font-titulo: "Jaro", sans-serif;
+    --font-texto: "Oswald", sans-serif;
+}
+
+body{
+    background-color: var(--roxo-muito-forte);
+    color: var(--roxo-fraco);
+    font-family: var(--font-texto);
+}
+
+.titulo-principal{
+    font-family: var(--font-titulo);
 }
